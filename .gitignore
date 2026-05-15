@@ -1,0 +1,78 @@
+# Build output
+bin/
+obj/
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+publish/
+
+# Local build/check output
+.build-check/
+
+# User-specific IDE files
+.vs/
+.idea/
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Rider / ReSharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# NuGet
+*.nupkg
+packages/
+project.assets.json
+project.nuget.cache
+
+# Logs and temp files
+*.log
+*.tmp
+*.temp
+*.cache
+*.pid
+*.orig
+*.swp
+*.swo
+*~
+
+# Test results and coverage
+TestResults/
+[Tt]est[Rr]esult*/
+coverage/
+coverage.xml
+coverage.cobertura.xml
+*.trx
+*.coverage
+*.coveragexml
+
+# ASP.NET / local secrets and certificates
+*.pfx
+*.publishsettings
+*.Publish.xml
+*.pubxml.user
+
+# OS files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+
+# Node/frontend dependencies, if added later
+node_modules/
+wwwroot/lib/
+
+# Local database files
+*.db
+*.sqlite
+*.sqlite3
+*.mdf
+*.ldf
